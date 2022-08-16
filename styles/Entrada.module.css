@@ -1,0 +1,70 @@
+.entrada {
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.35);
+    border-radius: 2rem;
+}
+
+.articulo {
+    max-width: 80rem;
+    margin: 0 auto;  
+}
+
+.imagen{
+    position: relative;
+    border-radius: 2rem 2rem 0 0;
+    overflow: hidden;
+}
+
+.imagen div{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(32, 45, 33, 0.1), rgb(10, 22, 11,0.9));
+    z-index: 1;
+}
+
+.contenido {
+    padding: 2rem;
+}
+
+.contenido h3 {
+    font-weight: 400;
+    font-size: 2.8rem;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.fecha{
+    font-size: 1.6rem;
+    color: var(--primary);
+}
+
+.resumen {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.enlace {
+    margin-top: 2rem;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: var(--negro);
+    border: 2px solid var(--primary);
+    padding: 1rem 5rem;
+    transition-property: background-color;
+    transition-duration: 300ms;
+}
+
+.enlace:hover {
+    background-color: var(--primary);
+    color: var(--blanco);
+}
+
+.texto {
+    white-space: pre-wrap;
+}
